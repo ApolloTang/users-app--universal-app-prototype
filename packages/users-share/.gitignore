@@ -1,0 +1,17 @@
+node_modules/
+/lib
+/coverage/
+Changelog.md
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.log
+/.publish/
+dist/stats.html
+**/*.map
+
+dist/**/*
+task-config.json

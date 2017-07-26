@@ -1,0 +1,3 @@
+rootProject.name = 'users_rn'
+
+include ':app'
