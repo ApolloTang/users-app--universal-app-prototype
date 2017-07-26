@@ -1,7 +1,7 @@
 import RootNavigator from 'users_rn/app/root/navigations/root';
 
 const initialState = RootNavigator.router.getStateForAction(
-  RootNavigator.router.getActionForPathAndParams('Login'),
+  RootNavigator.router.getActionForPathAndParams('Users'),
 );
 
 const nav = function navReducer(state = initialState, action) {

@@ -14,7 +14,7 @@ const Action_navigateToTab = (arg) => {
   return NavigationActions.reset({
     index: 0,
     actions: [
-      NavigationActions.navigate({ routeName: 'Login' }),
+      NavigationActions.navigate({ routeName: 'Users' }),
     ],
   });
 };
@@ -24,7 +24,7 @@ const Action_navigateToDrawer = (arg) => {
   return NavigationActions.reset({
     index: 0,
     actions: [
-      NavigationActions.navigate({ routeName: 'Login' }),
+      NavigationActions.navigate({ routeName: 'Users' }),
     ],
   });
 };
